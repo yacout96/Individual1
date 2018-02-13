@@ -1,1 +1,5 @@
-
+git init
+git add .
+git rm section3.1
+git reset HEAD --hard
+clear
