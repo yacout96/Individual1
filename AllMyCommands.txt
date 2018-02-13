@@ -3,3 +3,7 @@ git add .
 git rm section3.1
 git reset HEAD --hard
 clear
+git commit -m "message"
+git branch ReadMe
+git checkout ReadMe
+git add README.md
