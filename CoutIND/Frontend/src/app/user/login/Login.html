@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login page</title>
+    <script src="controller.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular-route.js"></script>
+</head>
+<body ng-app="mainApp">
+<div ng-view></div>
+        <div ng-controller="loginControl">
+        <form action="/" id="loginPage">
+            <p>Username</p>
+            <input type="text" class="form-control" ng-model="username" placeholder="username" ng-model="username" required=""/><br>
+            <p>Password</p>
+            <input type="password" class="form-control" ng-model="password" placeholder="password" ng-model="password" required=""/></br>
+            <button type="submit" class="btn btn-success" ng-click="submit()">Login</button>
+        </form>
+        </div>
+</body>
+</html>
+
+
+
+
+
