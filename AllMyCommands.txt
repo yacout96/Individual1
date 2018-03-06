@@ -1,1 +1,6 @@
-
+git clone 
+git pull
+git commit -m "message"
+git push
+git branch
+git checkout
